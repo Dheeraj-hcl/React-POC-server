@@ -1,0 +1,46 @@
+type User {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  fullName: String
+  phoneNumber: String!
+  email: String!
+  password: String!
+}
+
+type Product {
+  id: Int!
+  title: String!
+  description: String!
+  price: Float!
+  discountPercentage: Float!
+  rating: Float!
+  stock: Int!
+  brand: String!
+  category: String!
+  thumbnail: String!
+  images: [String!]!
+}
+
+type Cart{
+  id: Int!
+  userId: Int!
+  
+}
+
+type Query {
+  userProfile(id: ID!): User!
+  oneProductData(id: Int!): Product!
+  allProductsData(id: Int): [Product!]!
+}
+
+type Mutation {
+  userRegister(
+    firstName: String!
+    lastName: String!
+    phoneNumber: String!
+    email: String!
+    password: String!
+  ): User!
+  userLogin(email: String!,password: String!): User!
+}

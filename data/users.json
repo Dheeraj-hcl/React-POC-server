@@ -1,0 +1,34 @@
+[
+  {
+    "id": "user-0001",
+    "firstName": "Gujjala Dheeraj",
+    "lastName": "Chandra",
+    "phoneNumber": "6303113260",
+    "email": "dheerug773@gmail.com",
+    "password": "qwertyu"
+  },
+  {
+    "id": "HJDHFGDwj",
+    "firstName": "suraj",
+    "lastName": "krishna",
+    "phoneNumber": "765488023",
+    "email": "suraj@krishna.com",
+    "password": "fawkfa"
+  },
+  {
+    "id": "S1zfe3eus",
+    "firstName": "Gujjala ",
+    "lastName": "Dheeraj Chandra",
+    "phoneNumber": "694835329",
+    "email": "dheeraj@chandra.com",
+    "password": "12435"
+  },
+  {
+    "id": "HkN06oUhs",
+    "firstName": "abcdefg",
+    "lastName": "hijklmop",
+    "phoneNumber": "9875081049",
+    "email": "abc@abcdefg.com",
+    "password": "12345"
+  }
+]
